@@ -1,0 +1,84 @@
+1. NEWTON LAW
+    PSUEDOCODE
+        START
+            STORE 'massa' WITH 600
+            STORE 'acceleration' WITH 2
+            COMPUTE 'force' AS 'massa' TIMES acceleration
+            SHOW AREA
+        END SEQUENCE
+
+
+
+2. TAHUN KABISAT
+    Algoritma
+        START
+            1. Tentukan TAHUN
+            2. Apakah TAHUN habis dibagi 400? 
+                a. Jika habis dibagi 400 lanjut ke step 6
+                b. Jika tidak habis dibagi 400 lanjut ke step 3
+            3. Apakah TAHUN habis dibagi 100?
+                a. Jika habis dibagi 100 lanjut ke step 5
+                b. Jika  tidak habis dibagi 100 lanjut ke step 4
+            4. Apakah TAHUN habis dibagi 4?
+                a. Jika habis dibagi 4 lanjut ke step 0
+                b. Jika tidak habis dibagi 4 lanjut ke step 5
+            5. tampilkan BUKAN TAHUN KABISAT
+            6. tampilkan TAHUN KABISAT
+        END
+    
+    PSUEDOCODE 
+        START
+            1. GET `tahun`
+            2. IF `tahun` MOD 400 EQUALS 0 THEN
+                DISPLAY 'TAHUN KABISAT'
+            3. ELSE IF `tahun` MOD 100 EQUALS 0 THEN   
+                DISPLAY 'BUKAN TAHUN KABISAT'
+            4. ELSE IF `tahun` MOD 4 EQUALS 9 THEN  
+                DISPLAY 'TAHUN KABISAT'
+        END IF-THEN-ELSE
+
+
+3. LAUNDRY DAY 
+    Algoritma
+        START
+            1. Masukan pakaian ke dalam mesin cuci
+            2. Apakah jumlah pakaian >= 20?
+                a. Jika jumlah pakaian < 20, ulang step 1
+                b. Jika jumlah pakaian >= 20 lanjut ke step 3
+            3. Mulai mencuci
+        END
+    
+    PSUEDOCODE
+        START
+            1. WHILE 'pakaian' < 20 
+                INCREMENT 'pakaian' BY 1
+               ENDWHILE
+            2. DO LAUNDRY
+        END
+
+
+
+4. PERIKSA KUKU
+    Algoritma
+        START
+            1. Guru melihat kuku siswa
+                a. Jika kuku siswa panjang lanjut ke step 2
+                b. Jika kuku siswa pendek/rapi lanjut ke step 3
+            2. Siswa dihukum oleh guru dan lanjut ke step 4
+            3. Siswa diberi pujian oleh guru dan lanjut ke step 4
+            4. Apakah jumlah siswa yang sudah dipersika guru 40 orang siswa?
+                a. Jika suda 40 orang siswa END
+                b. Jika belum 40 orang siswa guru lanjut ke siswa selanjutnya dan ulangi step 1
+        END
+
+    PSUEDOCODE  
+        START
+            FOR siswa = 1 TO 40
+                IF 'kuku siswa panjang' THEN
+                    DO hukuman                  
+                ELSE THEN
+                    DO pujian
+                END IF
+        END FOR
+
+
