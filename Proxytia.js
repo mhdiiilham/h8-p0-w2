@@ -30,3 +30,4 @@ else if (player === 'Irfan' && peran === '') {
 else if (player === '' && peran === '') {
     console.log('Nama harus diisi!')
 }
+
