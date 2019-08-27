@@ -1,12 +1,13 @@
-var hari = '';
-var bulan = '';
-var tahun = ''
+var hari = '15';
+var bulan = '12';
+var tahun = '2000'
 switch (bulan) {
     case '1':
-        console.log(hari + ' ' + 'Januari' + " " + tahun)
+        console.log(hari + ' ' + 'Januari' + ' ' + tahun)
         break;
     case '2':
         console.log(hari + ' ' + 'Februari' + ' ' + tahun)
+        break;
     case '3':
         console.log(hari + ' ' + 'Maret' + ' ' + tahun)
         break;
